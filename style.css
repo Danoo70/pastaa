@@ -1,0 +1,508 @@
+*{
+    margin: 0;
+    
+    padding: 0;
+    
+    
+    }
+    body{
+    background-color: rgba(128, 128, 128, 0.322);
+    font-family: Arial;
+    }
+    nav{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    
+    
+    }
+
+    .Meny{
+padding: 0 10px 30px 10px;
+display:grid;
+grid-template-columns: repeat(auto-fit, min-max(350px,1fr));
+
+
+    }
+
+
+    ul li{
+    list-style: none;
+    display: inline-block;
+    line-height: 100px;
+    }
+    ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial;
+    color: black;
+    padding: 0 20px;
+    
+    }
+    .img{
+    max-width: 100%;
+    height: auto;
+    }
+    
+    .Maträtter
+    {
+        display:grid;
+        position: relative;
+        grid-template-rows: 1fr;
+        border-radius: 15px;
+    }
+    .Maträtter img
+    {
+    position: relative;
+    width: 500px;
+    border-radius: 15px 15px 0 0;
+    
+    }
+    
+    
+    h1{
+    grid-template-rows: 1/-1;
+    text-align:left ;
+    font-size: 1.5em;
+    
+    }
+    
+    .detaljer{
+    padding: 20px 10px;
+    display: grid;
+    grid-template-rows: auto 1fr 50px;
+    grid-row-gap: 15px;
+    
+    }
+    .subdetaljer{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+    
+    }
+    .Pris{
+    text-align: left;
+    
+    }
+    .detaljer>p{
+    color: gray;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 400;
+    align-self: stretch;
+    
+    }
+    .detaljer>button{
+    background-color: red;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 180px;
+    
+    }
+    .Maträtt2
+    {
+        display:grid;
+        position: relative;
+        grid-template-rows: 1fr;
+        border-radius: 15px;
+    }
+    .Maträtt2 img
+    {
+    position: relative;
+    width: 500px;
+    border-radius: 15px 15px 0 0;
+    
+    }
+    
+    
+    h2{
+    grid-template-rows: 1/-1;
+    text-align:left ;
+    font-size: 1.5em;
+    }
+    
+    .detaljer2{
+    padding: 20px 10px;
+    display: grid;
+    grid-template-rows: auto 1fr 50px;
+    grid-row-gap: 15px;
+    
+    }
+    .subdetaljer2{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+    
+    }
+    .Pris2{
+    text-align: left;
+    
+    }
+    .detaljer2>p{
+    color: gray;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 400;
+    align-self: stretch;
+    
+    }
+    .detaljer2>button{
+    background-color: red;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 180px;
+    
+    }
+    .Maträtt3
+    {
+        display:grid;
+        position: relative;
+        grid-template-rows: 1fr;
+        border-radius: 15px;
+    }
+    .Maträtt3 img
+    {
+    position: relative;
+    width: 500px;
+    border-radius: 15px 15px 0 0;
+    
+    }
+    
+    
+    h3{
+    grid-template-rows: 1/-1;
+    text-align:left ;
+    font-size: 1.5em;
+    }
+    
+    .detaljer3{
+    padding: 20px 10px;
+    display: grid;
+    grid-template-rows: auto 1fr 50px;
+    grid-row-gap: 15px;
+    
+    }
+    .subdetaljer3{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+    
+    }
+    .Pris3{
+    text-align: left;
+    
+    }
+    .detaljer3>p{
+    color: gray;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 400;
+    align-self: stretch;
+    
+    }
+    .detaljer3>button{
+    background-color: red;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 180px;
+    
+    }.Vin
+    {
+        display:grid;
+        position: relative;
+        grid-template-rows: 1fr;
+        border-radius: 15px;
+    }
+    .Vin img
+    {
+    position: relative;
+    width: 500px;
+    border-radius: 15px 15px 0 0;
+    
+    }
+    
+    
+    h4{
+    grid-template-rows: 1/-1;
+    text-align:left ;
+    font-size: 1.5em;
+    }
+    
+    .Detaljer4{
+    padding: 20px 10px;
+    display: grid;
+    grid-template-rows: auto 1fr 50px;
+    grid-row-gap: 15px;
+    
+    }
+    .Subdetaljer4
+    {
+    display: grid;
+    grid-template-columns: auto auto;
+    
+    
+    }
+    .Drickpris
+    {
+    text-align: left;
+    
+    }
+    .Detaljer4>p
+    {
+    color: gray;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 400;
+    align-self: stretch;
+    
+    }
+    .Detaljer4>button
+    {
+    background-color: red;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 180px;
+    
+    }
+    .Kaffe
+    {
+        display:grid;
+        position: relative;
+        grid-template-rows: 1fr;
+        border-radius: 15px;
+    }
+    .Kaffe img
+    {
+    position: relative;
+    width: 500px;
+    border-radius: 15px 15px 0 0;
+    
+    }
+    
+    
+    h5
+    {
+    grid-template-rows: 1/-1;
+    text-align:left ;
+    font-size: 1.5em;
+    
+    }
+    
+    .Detaljer5
+    {
+    padding: 20px 10px;
+    display: grid;
+    grid-template-rows: auto 1fr 50px;
+    grid-row-gap: 15px;
+    
+    }
+    .subdetaljer5
+    {
+    display: grid;
+    grid-template-columns: auto auto;
+    
+    
+    }
+    .Kaffepris
+    {
+    text-align: left;
+    
+    }
+    .Detaljer5>p
+    {
+    color: gray;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 400;
+    align-self: stretch;
+    
+    }
+    .Detaljer5>button
+    {
+    background-color: red;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 180px;
+    
+    }
+    .Juice
+    {
+        display:grid;
+        position: relative;
+        grid-template-rows: 1fr;
+        border-radius: 15px;
+    }
+    .Juice img
+    {
+    position: relative;
+    width: 500px;
+    border-radius: 15px 15px 0 0;
+    
+    }
+    
+    
+    h6{
+    grid-template-rows: 1/-1;
+    text-align:left ;
+    font-size: 1.5em;
+    }
+    
+    .detaljer6{
+    padding: 20px 10px;
+    display: grid;
+    grid-template-rows: auto 1fr 50px;
+    grid-row-gap: 15px;
+    
+    }
+    .subdetaljer6{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+    
+    }
+    .JuicePris{
+    text-align: left;
+    
+    }
+    .detaljer6>p{
+    color: gray;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 400;
+    align-self: stretch;
+    
+    }
+    .detaljer6>button{
+    background-color: red;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 180px;
+    
+    }
+    .Dessert
+    {
+        display:grid;
+        position: relative;
+        grid-template-rows: 1fr;
+        border-radius: 15px;
+    }
+    .Dessert img
+    {
+    position: relative;
+    width: 500px;
+    border-radius: 15px 15px 0 0;
+    
+    }
+    
+    
+    h4
+    {
+    grid-template-rows: 1/-1;
+    text-align:left ;
+    font-size: 1.5em;
+    }
+    
+    .Detaljer7
+    {
+    padding: 20px 10px;
+    display: grid;
+    grid-template-rows: auto 1fr 50px;
+    grid-row-gap: 15px;
+    
+    }
+    .subdetaljer7
+    {
+    display: grid;
+    grid-template-columns: auto auto;
+    
+    
+    }
+    .Tårta
+    {
+    text-align: left;
+    
+    }
+    .Detaljer7>p
+    {
+    color: gray;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 400;
+    align-self: stretch;
+    
+    }
+    .Detaljer7>button
+    {
+    background-color: red;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 180px;
+    
+    }
+
+    .Omoss img
+    {
+        position: relative;
+        width: 1000px;
+        border-radius: 15px 15px 0 0;
+
+    }
+
+
+    
+
+    .Kontakt{
+        width: 500px;
+        background-color: gray;
+        
+    }
+.form{
+margin:35px;
+
+
+    }
+    .inmatning{
+        width: 400px;
+        height: 40px;
+        margin-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: 1px solid gray;
+        border-radius: 14px;
+        outline: none;
+            }
+
+
+.Knapp{
+border-radius: 20px;
+color:#fff;
+margin-top: 18px;
+background-color:green;
+font-size: 12px;
+border: none;
+cursor: pointer;
+
+
+}
