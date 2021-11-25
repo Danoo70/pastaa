@@ -40,9 +40,9 @@ grid-template-columns: repeat(auto-fit, min-max(350px,1fr));
     padding: 0 20px;
     
     }
-    .img{
-    max-width: 100%;
-    height: auto;
+   .image{
+    width: 100%;
+    height:auto;
     }
     
     .Maträtter
